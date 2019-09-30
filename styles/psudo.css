@@ -1,0 +1,22 @@
+/* psudo-classes affect existing elements based on a condition*/
+
+.nav-links:hover{ /* hover Selects links on mouse over    */
+    background-color: red;
+}
+
+.nav-links:active{
+    background-color: green;
+    border:  5px solid blue;
+}
+
+.form-fields:optional:focus{
+    border: 2px solid green;
+}
+
+.form-fields:required:focus{
+    border: 2px solid red;
+}
+
+.nav-links:last-child{ /* only last nav-link tang will be affected)*/
+    background-color: yellow;
+}
