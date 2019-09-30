@@ -1,0 +1,9 @@
+header h1{
+    /*color: RGBa(98, 183, 117,0.8); RGBa lest paramether is transparency*/
+    /*color: #6460b681; Hex with transparency*/
+    /*color: hsl(204, 68%, 32%, 0.2);   HSL (hue, saturationm lightness) HSLa (transparency, 1 without transparency and 0 is transparent) */
+    color: #1a5d89;
+    text-shadow: 2px 2px #a2b3be; /*  2 px down and right */
+
+
+}
